@@ -1,0 +1,31 @@
+<productos>
+  <producto>
+    <id>1</id>
+    <nombre>Chaqueta</nombre>
+    <descripcion>Chaqueta reversible estilo universitario</descripcion>
+    <precio>100</precio>
+    <imagen>product1.jpg</imagen>
+  </producto>
+  <producto>
+   <id>2</id>
+    <nombre>Hoddie</nombre>
+    <descripcion>Hoddie color gris con estilo urbano</descripcion>
+    <precio>35</precio>
+    <imagen>product2.jpg</imagen>
+  </producto>
+  <producto>
+    <id>50</id>
+    <nombre>Camiseta</nombre>
+    <descripcion>Camiseta casual, estampado Cowboy Bebop</descripcion>
+    <precio>45</precio>
+    <imagen>product3.jpg</imagen>
+  </producto>
+  <producto>
+    <id>50</id>
+    <nombre>Camiseta</nombre>
+    <descripcion>Camiseta casual, estampado Muse</descripcion>
+    <precio>80</precio>
+    <imagen>product4.jpg</imagen>
+  </producto>
+  
+</productos>

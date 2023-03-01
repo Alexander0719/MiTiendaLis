@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="text"],
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-file-label::after {
+    content: "Seleccionar archivo";
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: blue;
+}
